@@ -6,7 +6,7 @@ import streamlit as st
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 from ultralytics import YOLO
 
-# ------------------------------------------------------------------ setup
+
 st.set_page_config(page_title="Plate Detector", page_icon="🔍", layout="wide")
 
 ACCENT = "#3B82F6"
