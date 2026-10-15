@@ -111,27 +111,9 @@ Plates-Detector/
 └── assets/                         images used in this README
 ```
 
-## Run locally
 
-```bash
-git clone https://github.com/soufianessadik/Plates-Detector.git
-cd Plates-Detector
-pip install -r requirements.txt
-streamlit run app.py
-```
 
-The app opens at `http://localhost:8501`. It runs on CPU.
 
-To reproduce the training, open the notebooks on Kaggle, add the dataset as input and run them in order with a GPU.
-
----
-
-## Next steps
-
-- **Read the plate number** (OCR) on the cropped plates.
-- **Train at a larger image size** (`imgsz=960`) to recover small, distant plates.
-- **Label the background plates** in street photos, for more accurate scores and better recall on distant plates.
-- **Video support** in the app.
 
 ## License and credits
 
